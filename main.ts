@@ -8,6 +8,8 @@
 
 // let abc = 'another'
 
+import { MustHaveCofee } from './src/cofee/getcofee'
+
 function f(input: boolean) {
 
 	let a = 100
@@ -18,7 +20,7 @@ function f(input: boolean) {
 	return a;
 }
 
-f(true)
-
 console.log(f(true))
 console.log(f(false))
+
+let cofee = new MustHaveCofee()
