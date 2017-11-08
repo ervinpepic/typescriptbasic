@@ -1,40 +1,24 @@
-class SweetSweetBasil { 
-	name: string;
-	color: string;
-	constructor() {
-		// console.log("hello" + name)
-		// this.color = startcolor
-	}
+// let hello:any = 'Hi!'
 
-	getcolor() {
-		console.log(this.color)
-	}
+// var hi = 'Hello'
+
+
+// hello = 'abc'
+// hi  = 'asdsds'
+
+// let abc = 'another'
+
+function f(input: boolean) {
+
+	let a = 100
+	if (input) {
+		let b = a + 1002010
+		return b;
+	} 
+	return a;
 }
 
-// let ervin = new SweetSweetBasil("ervin", "green")
-// let pepic = new SweetSweetBasil("Pepic", "Brown")
+f(true)
 
-// ervin.getcolor()
-// pepic.getcolor()
-
-// console.log(pepic.color)
-
-class Basil extends SweetSweetBasil {
-	nameNew: string;
-	constructor(name:string, startcolor:string) {
-		super()
-		this.nameNew = name
-		this.color =startcolor
-
-	}
-	setNewColor(newColor:string) {
-		this.color = newColor
-		super.getcolor()
-	}
-}
-
-let ervin1 = new Basil("hej","o")
-
-ervin1.getcolor()
-ervin1.setNewColor("roza")
-
+console.log(f(true))
+console.log(f(false))
