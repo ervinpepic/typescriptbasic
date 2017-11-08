@@ -1,0 +1,32 @@
+{
+  "name": "tssetup",
+  "version": "1.0.0",
+  "description": "Basic things in typescript",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "",
+    "main": "webpack --watch --optimize-minimize",
+    "server": "http-server -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ervinpepic/typescriptbasic.git"
+  },
+  "keywords": [
+    "webpack",
+    "typescript"
+  ],
+  "author": "Ervin pepic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ervinpepic/typescriptbasic/issues"
+  },
+  "homepage": "https://github.com/ervinpepic/typescriptbasic#readme",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "ts-loader": "^3.1.1",
+    "typescript": "^2.6.1",
+    "typings": "^2.1.1",
+    "webpack": "^3.8.1"
+  }
+}
